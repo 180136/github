@@ -1,0 +1,133 @@
+h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin: 0 0 30px 0;
+    letter-spacing: 5px;
+}
+ 
+
+ 
+.homepage a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #F44336;
+    display: block;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 0 #9e2b23;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    margin: 450px auto 0;
+    letter-spacing: 2px;
+}
+ 
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: solid 5px #F44336;
+    position: absolute;
+    width: 200px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -5px;
+}
+ 
+html {
+     background-image: url("sky.jpg");
+     background-size: cover;
+      
+    }
+
+ 
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px 300px;
+    max-width: 700px;
+    margin: 50px auto;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    position: relative;
+}
+ 
+
+.title h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin: 0 0 30px 0;
+    letter-spacing: 5px;
+   
+}
+   
+
+
+
+.image img {
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 150px;
+}
+
+.aaa  {
+    position: absolute;
+   top: 50%;
+   left: 22%;
+   font-weight :bold;
+   text-align:center
+}
+
+.bbb h2 {
+    position: absolute;
+   top: 70%;
+   left: 35%;
+   font-weight :bold;
+   text-align:center
+}
+
+.bbb h2::after {
+    content: "";
+    display: block;
+    border-bottom: solid 5px #F44336;
+    position: absolute;
+    width: 200px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -5px;
+}
+
+.image2 a {
+    height: 5px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top:850px;
+    left: 50px;
+}
+
+.image3 a {
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top:850px;
+    right: 270px;
+}
+
+
+.image4 a {
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top:850px;
+    right: 50px;
+}
+
